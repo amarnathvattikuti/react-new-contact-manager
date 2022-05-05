@@ -42,7 +42,8 @@ const displaySearchAreafunc = () => {
     if(listItems.length > 5){
         setDisplaySearchArea(true);
     }
- }, [displaySearchAreafunc]);
+    displaySearchAreafunc();
+ }, []);
 
  return(
      <>
