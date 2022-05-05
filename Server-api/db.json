@@ -1,0 +1,44 @@
+{
+  "contacts": [
+    {
+      "id": "159b32d2-b935-41d5-a1ce-ec6ed4285c68",
+      "name": "Amarnath-user",
+      "email": "amarnathmax@gmail.com"
+    },
+    {
+      "id": "a5eb5c06-1589-4edd-bca4-ee7298318255",
+      "name": "Rama Krishna",
+      "email": "test@gmail"
+    },
+    {
+      "id": "879e7ae0-8e96-421d-9331-99434178f41c",
+      "name": "Ramesh Kumar",
+      "email": "rameshTest@gamil.com"
+    },
+    {
+      "id": "8ba559ea-fb8a-4605-8b4b-1e0c2401338e",
+      "name": "test-user-1",
+      "email": "test@gmail"
+    },
+    {
+      "id": "2c18c559-1ec1-4c72-a022-9c9d9a856862",
+      "name": "Test-User-22",
+      "email": "test@gmail"
+    },
+    {
+      "id": "18a85c08-e43d-4e05-b1f4-dd17f2cf4b5f",
+      "name": "Test - User - 33",
+      "email": "test@gmail"
+    },
+    {
+      "id": "cbec7a0b-ba19-4454-92f4-4db007ae76d3",
+      "name": "Test - user - 7",
+      "email": "123@gmail.com"
+    },
+    {
+      "id": "462b039c-8d01-4d18-b7e4-80bb131f607a",
+      "name": "Test-User-9",
+      "email": "test@gmail"
+    }
+  ]
+}

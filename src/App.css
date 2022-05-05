@@ -1,12 +1,127 @@
+body{
+  font-weight: 100;
+  font-size: 18px;
+  color: #3b3a3a;
+  background-color: #efefef;
+}
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* contactList styles */
+.bgSelected{
+  background-color: #1434A4;
+}
+.listItem{
+  background-color: #fff;
+  box-shadow: 1px 1px 5px grey;
+  letter-spacing: 0.05rem;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 10px !important;
+  transition: all 0.25s;
+}
+.listItem:hover{
+  cursor: pointer;
+  background-color: rgb(240, 241, 240);
+  box-shadow: 4px 1px 7px grey;
+  transform: translate(0.15em);
+}
+.btnAdd{
+  background-color: #1434A4;
+  box-shadow: 4px 1px 7px grey;
+  font-size: 24px;
+  color: #fff;
+  transition: all 0.25s;
+}
+.btnAdd:hover{
+  font-size: 24px;
+  color: #fff;
+  transform: translate(0.25em);
+}
+.btnRegular{
+  background-color: #1434A4;
+  box-shadow: 4px 1px 7px grey;
+  font-size: 16px;
+  color: #fff;
+  transition: all 0.25s;
+}
+.btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+.btnRegular:hover{
+  background-color: #1434A4;
+  box-shadow: 4px 1px 7px grey;
+  font-size: 18px;
+  color: #fff;
+}
+.boxCont{
+  box-shadow: 4px 1px 7px grey;
+}
+.searchBtn{
+  padding: 0px;
+  margin: -10px -20px 7px -29px;
 }
 
+.input-group:not(.has-validation)>.form-control:not(:last-child){
+  border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card>hr{
+  display: none;
+}
+.card{
+  width: 100%;
+}
+.imgbtn{
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.25s;
+}
+.imgbtn:hover{
+  transform: translate(0.12em);
+}
+.icon-svg{
+  position: absolute;
+  left: 4px;
+  bottom: 8px;
+}
+.avatarbtn{
+  margin-top: 10px;
+}
+center{
+  margin: 10px auto;
+  width: 100%;
+}
+.list-group-item:hover{
+  cursor: pointer;
+}
+img {
+  border-radius: 50%;
+}
+.navbar-brand{
+  font-size: 1rem;
+}
+.card-header:hover{
+  background-color: #d9dadb;
+  cursor: pointer;
+}
+.test{
+  color: #000;
+}
+
+@media screen and (max-width: 600px){
+  .form-inline{
+    width:100%;
+  }
+  .mobCont{
+    padding: 0px 30px;
+  }
+}
+
+.mb-0{margin-bottom: 0px;}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
