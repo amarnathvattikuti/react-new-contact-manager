@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "../db.json"
+    "start": "https://github.com/amarnathvattikuti/react-new-contact-manager/blob/main/Server-api/db.json"
   },
   "keywords": [],
   "author": "",
